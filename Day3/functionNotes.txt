@@ -1,0 +1,42 @@
+1. What is a method?
+→ A block of code that performs a specific task and can be reused.
+
+void greet() {
+    System.out.println("Hello, welcome!");
+}
+
+
+
+2. Calling a method
+
+public static void main(String[] args) {
+    greet();
+}
+
+3. Methods with Parameters
+
+void greet(String name) {
+    System.out.println("Hello " + name + "!");
+}
+
+
+4. Return Type
+
+int add(int a, int b) {
+    return a + b;
+}
+
+5. Method Overloading
+Same method name but different parameters.
+
+int add(int a, int b) { return a + b; }
+double add(double a, double b) { return a + b; }
+
+   *  Why Method Overloading is Useful
+
+          Improves code reusability
+
+          Increases readability
+
+          Makes API design clean (same name, multiple versions)
+          
