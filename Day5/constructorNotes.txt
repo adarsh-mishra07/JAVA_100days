@@ -1,0 +1,26 @@
+What is a Constructor?
+A constructor is a special method that initializes an object when it is created.
+
+*  It has the same name as the class.
+
+It does not have a return type, not even void.
+It is automatically called when we create an object using new.
+
+*  Types of Constructors:
+
+1. Default Constructor: Created automatically by Java if no constructor is defined.
+
+2. Parameterized Constructor: Used when we need to initialize objects with specific values.
+
+3. Copy Constructor: Used to create a new object by copying another object (manually written in Java).
+
+
+Constructor Overloading:
+We can have multiple constructors in a class with different parameter lists — this is known as constructor overloading.
+
+
+What I Understood
+
+Constructors automatically run when an object is created.
+They help make our code cleaner, safer, and more organized.
+Constructor overloading gives flexibility to initialize objects differently based on need.
