@@ -1,0 +1,57 @@
+Learn everything about arrays, their types, and how to perform operations like traversal, sum, min-max, and more.
+-----------------------------------------------------
+1. What is an Array?
+
+An array is a collection of similar data types stored in contiguous memory.
+
+Example:
+
+int[] marks = {90, 85, 88, 92, 80};
+
+-----------------------------------------------
+2. How to Declare and Initialize
+
+int[] arr = new int[5]; // declares array of size 5
+arr[0] = 10;            // store value
+arr[1] = 20;
+
+int[] arr2 = {10, 20, 30, 40, 50}; // directly initialize
+
+----------------------------------------------
+3. Traversing an Array (Printing all Elements)
+
+for (int i = 0; i < arr2.length; i++) {
+    System.out.println(arr2[i]);
+}
+
+
+Or using for-each loop:
+
+for (int val : arr2) {
+    System.out.println(val);
+}
+
+----------------------------------------------------
+4. Taking Array Input from User
+
+import java.util.Scanner;
+
+class ArrayInput {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[5];
+
+        System.out.println("Enter 5 numbers:");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.println("You entered:");
+        for (int num : arr) {
+            System.out.println(num);
+        }
+    }
+}
+
+---------------------------------------------------
+
