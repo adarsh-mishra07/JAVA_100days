@@ -1,0 +1,41 @@
+What is Inheritance?
+Inheritance means acquiring the properties and behaviors (variables & methods) of one class into another.
+It helps us reuse code and maintain hierarchy among classes.
+
+class Parent {
+   // parent class code
+}
+
+class Child extends Parent {
+   // child class code
+}
+
+
+----------------------------------------
+
+Types of Inheritance in Java
+
+Single Inheritance
+→ One class inherits from another.
+A → B
+
+Multilevel Inheritance
+→ Class C inherits from B, which inherits from A.
+A → B → C
+
+Hierarchical Inheritance
+→ Multiple classes inherit from one base class.
+A → B, C
+
+⚠️ Note: Java doesn’t support multiple inheritance (like class C extends A, B) because it creates ambiguity.
+
+
+---------------------------------------------------
+
+super keyword
+
+Use super to:
+
+Access parent class variable/method
+
+Call parent class constructor
